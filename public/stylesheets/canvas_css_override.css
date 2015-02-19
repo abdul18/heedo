@@ -1,13 +1,13 @@
 #header-logo, #header.no-user #header-logo {
     background: url("https://raw.githubusercontent.com/abdul18/heedo/master/public/images/white%20logo_blue%20background_pantone.jpg") no-repeat scroll 0 0 transparent;
     bottom: 0px;
-    height: 67px;
+    height: 71px;
     left: 15px;
     width: 350px;
-    background-size: 145px;
+    background-size: 133px;
 }
 body {
-    background-color: #027bb6;
+    background-color: #f0f0f0;
     background-image: none;
     background-repeat: repeat;
     background-position: left top;
@@ -16,23 +16,32 @@ body {
 #header {
     background-image: none;
     background-color: #027bb6;
-    min-height: 70px;
+    min-height: 77px;
 }
-.list-view > header, .list-view #section-tabs-header {
-    color: #FFF;
-    background-color: #027bb6;
-    background-image: none;
-    background-repeat: repeat-x;
-    margin-top: 0px;
-    padding: 4px 12px;
-    box-shadow: 0px 1px 0px rgba(143, 213, 243, 1) inset;
-    border-bottom: 1px solid #9CD7F0;
-    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.75);
-    border-top: 1px solid #B6BABF;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 0px;
-    line-height: 19px;
-    height: inherit;
+.list-view > ul, .list-view > nav > ul {
+    list-style: none outside none;
+    margin: 0px;
+    padding: 0px;
+    background: #027bb6;
+    color: #fff;
+}
+
+#main {
+position: relative;
+z-index: 10;
+background-color: #fff;
+border: none;
+border-top: none;
+margin-bottom: 24px;
+min-height: 450px;
+max-width: 1095px;
+margin-top: -7px;
+}
+
+#footer-links a {
+border-left: 1px solid #BDAEAE;
+/* color: #FFF; */
+padding-right: 2px;
+padding-left: 5px;
 }
 
