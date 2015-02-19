@@ -16,7 +16,8 @@ body {
 #header {
     background-image: none;
     background-color: #027bb6;
-    min-height: 77px;
+    min-height: 70px;
+    padding-bottom: 7px;
 }
 .list-view > ul, .list-view > nav > ul {
     list-style: none outside none;
@@ -35,7 +36,6 @@ border-top: none;
 margin-bottom: 24px;
 min-height: 450px;
 max-width: 1095px;
-margin-top: -7px;
 }
 
 #footer-links a {
@@ -62,4 +62,9 @@ padding-left: 5px;
     line-height: 19px;
     height: inherit;
 }
-
+.list-view a.active {
+background-color: transparent;
+border-bottom-color: #9CD7F0;
+border-top-color: #9CD7F0;
+background-color: #fff;
+}
