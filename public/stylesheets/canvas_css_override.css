@@ -100,5 +100,9 @@ font-size: 1em;
 color: #555;
 text-decoration: none;
 }
+#right-side ellipsis a {
+color: #fff;
+text-decoration: none;
+}
 
 
