@@ -68,3 +68,7 @@ border-bottom-color: #9CD7F0;
 border-top-color: #9CD7F0;
 background-color: #fff;
 }
+.list-view a.active {
+background: #fff;
+color: #0099e0;
+}
